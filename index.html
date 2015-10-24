@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Angular JSPM</title>
+    <script src="jspm_packages/system.js"></script>
+    <script src="config.js"></script>
+    <script>
+        System.import('./app/app');
+    </script>
+</head>
+    <body>
+        <h1>Angular JSPM</h1>
+              <div ng-app="app">
+                <div parent>
+                  parent
+                  <div child>
+                    child
+                  </div>
+                </div>
+            </div>
+    </body>
+</html>
